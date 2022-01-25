@@ -19,6 +19,13 @@ repositories {
 }
 
 dependencies {
+
+	implementation project(":forpms")
+	implementation project(":forbwi")
+	implementation project(":forexp")
+	implementation project(":forcms")
+	implementation project(":forwith")
+
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'

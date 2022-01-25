@@ -1,12 +1,13 @@
-package choyh.lines.custmannotations.controller;
+package choyh.lines.forwithAnotations.controller;
+
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class SampleController {
-    @GetMapping("/sample/a")
+public class SampleWithController {
+    @GetMapping("/forwith/a")
     public String getA(){
-        return "A";
+        return "WITH - A";
     }
 }
